@@ -33,6 +33,8 @@
             color: var(--dark);
             background-color: var(--white);
             overflow-x: hidden;
+            width: 100%;
+            max-width: 100%;
         }
 
         h1, h2, h3, h4, h5 {
@@ -56,15 +58,17 @@
             display: block;
         }
 
+        /* UPDATED: Full width container */
         .container {
             width: 100%;
-            max-width: 1200px;
+            max-width: 1400px; /* Increased from 1200px */
             margin: 0 auto;
-            padding: 0 15px;
+            padding: 0 20px;
         }
 
         section {
             padding: 60px 0;
+            width: 100%;
         }
 
         .btn {
@@ -132,6 +136,7 @@
             font-size: 2.2rem;
             color: var(--primary);
             position: relative;
+            width: 100%;
         }
 
         .section-title::after {
@@ -161,6 +166,7 @@
             align-items: center;
             padding: 15px 0;
             position: relative;
+            width: 100%;
         }
 
         .logo {
@@ -221,20 +227,24 @@
             padding: 5px;
         }
 
-        /* Hero Section */
+        /* Hero Section - UPDATED for full width */
         .hero {
             background: linear-gradient(rgba(139, 115, 85, 0.7), rgba(139, 115, 85, 0.7)), url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80');
             background-size: cover;
             background-position: center;
             color: white;
             text-align: center;
-            padding: 120px 0;
+            padding: 120px 20px;
+            width: 100%;
         }
 
         .hero h1 {
             font-size: 3rem;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .hero p {
@@ -253,12 +263,14 @@
         /* Quick Links */
         .quick-links {
             background-color: var(--light);
+            width: 100%;
         }
 
         .quick-links-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 30px;
+            width: 100%;
         }
 
         .quick-link-card {
@@ -270,6 +282,7 @@
             text-align: center;
             padding: 30px 20px;
             border: 1px solid var(--light-gray);
+            width: 100%;
         }
 
         .quick-link-card:hover {
@@ -293,6 +306,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
+            width: 100%;
         }
 
         .package-card {
@@ -302,6 +316,7 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
             background-color: var(--white);
+            width: 100%;
         }
 
         .package-card:hover {
@@ -349,15 +364,17 @@
             margin-right: 10px;
         }
 
-        /* Instagram Feed - UPDATED DESIGN */
+        /* Instagram Feed */
         .instagram-feed {
             background-color: var(--light);
+            width: 100%;
         }
 
         .instagram-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
             gap: 15px;
+            width: 100%;
         }
 
         .instagram-item {
@@ -400,6 +417,7 @@
             background-color: var(--dark);
             color: var(--white);
             padding: 60px 0 30px;
+            width: 100%;
         }
 
         .footer-content {
@@ -407,6 +425,7 @@
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 40px;
             margin-bottom: 40px;
+            width: 100%;
         }
 
         .footer-logo {
@@ -464,11 +483,11 @@
         }
 
         /* Page Specific Styles */
-        /* Services Page */
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
+            width: 100%;
         }
 
         .service-card {
@@ -481,6 +500,7 @@
             transition: all 0.3s ease;
             cursor: pointer;
             border: 1px solid var(--light-gray);
+            width: 100%;
         }
 
         .service-card:hover {
@@ -502,7 +522,8 @@
         .tour-section {
             background-color: var(--light);
             text-align: center;
-            padding: 80px 0;
+            padding: 80px 20px;
+            width: 100%;
         }
 
         .tour-section h2 {
@@ -517,7 +538,7 @@
             font-size: 1.1rem;
         }
 
-        /* About Page - UPDATED FACILITIES SECTION */
+        /* About Page */
         .timeline {
             position: relative;
             max-width: 800px;
@@ -575,7 +596,7 @@
             left: -12px;
         }
 
-        /* Facilities Section - UPDATED TO WORDS */
+        /* Facilities Section */
         .facilities-section {
             margin-bottom: 60px;
         }
@@ -585,6 +606,7 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
             margin-top: 40px;
+            width: 100%;
         }
 
         .facility-card {
@@ -595,6 +617,7 @@
             border: 1px solid var(--light-gray);
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
+            width: 100%;
         }
 
         .facility-card:hover {
@@ -618,6 +641,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 30px;
+            width: 100%;
         }
 
         .value-card {
@@ -647,6 +671,7 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
             margin-bottom: 60px;
+            width: 100%;
         }
 
         .package-builder {
@@ -655,6 +680,7 @@
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             border: 1px solid var(--light-gray);
+            width: 100%;
         }
 
         .form-group {
@@ -727,11 +753,12 @@
             display: block;
         }
 
-        /* Contact Page - UPDATED FORM */
+        /* Contact Page */
         .contact-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 50px;
+            width: 100%;
         }
 
         .contact-form .form-group {
@@ -765,6 +792,7 @@
             align-items: center;
             justify-content: center;
             border: 1px solid var(--light-gray);
+            width: 100%;
         }
 
         /* Digital Map Styles */
@@ -855,6 +883,7 @@
         /* Hide all pages except active one */
         .page {
             display: none;
+            width: 100%;
         }
         
         .page.active {
@@ -875,6 +904,57 @@
         
         .mobile-overlay.active {
             display: block;
+        }
+
+        /* =========================
+           FULL-WIDTH DESKTOP STYLES
+           ========================= */
+        
+        @media (min-width: 1401px) {
+            /* Remove max-width for very large screens */
+            .container {
+                max-width: 100%;
+                padding: 0 40px;
+            }
+            
+            .hero {
+                padding: 150px 20px;
+            }
+            
+            .hero h1 {
+                font-size: 3.5rem;
+                max-width: 1400px;
+            }
+            
+            .packages-grid,
+            .services-grid,
+            .quick-links-grid,
+            .pricing-cards,
+            .facilities-grid {
+                grid-template-columns: repeat(3, 1fr);
+                max-width: 1400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .instagram-grid {
+                grid-template-columns: repeat(5, 1fr);
+                max-width: 1400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .values-grid {
+                grid-template-columns: repeat(4, 1fr);
+                max-width: 1400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            /* Make sections more spacious */
+            section {
+                padding: 80px 0;
+            }
         }
 
         /* =========================
@@ -954,7 +1034,7 @@
             
             /* Hero Section Mobile */
             .hero {
-                padding: 80px 0;
+                padding: 80px 20px;
             }
             
             .hero h1 {
@@ -1108,7 +1188,7 @@
             }
             
             .tour-section {
-                padding: 60px 0;
+                padding: 60px 20px;
             }
             
             .tour-section h2 {
@@ -1237,6 +1317,48 @@
                 padding: 15px 0;
             }
         }
+
+        /* =========================
+           WIDE SCREEN OPTIMIZATIONS
+           ========================= */
+        @media (min-width: 1600px) {
+            .container {
+                padding: 0 60px;
+            }
+            
+            .hero h1 {
+                font-size: 4rem;
+                max-width: 1400px;
+            }
+            
+            .hero p {
+                font-size: 1.3rem;
+                max-width: 800px;
+            }
+            
+            .section-title {
+                font-size: 2.5rem;
+            }
+            
+            .quick-link-card,
+            .package-card,
+            .service-card,
+            .facility-card {
+                padding: 40px 30px;
+            }
+            
+            .quick-link-card i,
+            .service-card i,
+            .facility-card i {
+                font-size: 3.5rem;
+            }
+            
+            .quick-link-card h3,
+            .service-card h3,
+            .facility-card h3 {
+                font-size: 1.8rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -1273,7 +1395,6 @@
                 <p>Providing loving, safe, and comfortable care for your pets while you're away. Our premium facilities and dedicated staff ensure your furry friends feel right at home.</p>
                 <div class="hero-buttons">
                     <a href="#packages" class="btn">View Packages</a>
-                    <!-- Changed Contact Us button color to match View Packages -->
                     <a href="#contact" class="btn">Contact Us</a>
                 </div>
             </div>
@@ -1368,7 +1489,7 @@
             </div>
         </section>
 
-        <!-- Instagram Feed - UPDATED DESIGN -->
+        <!-- Instagram Feed -->
         <section class="instagram-feed">
             <div class="container">
                 <h2 class="section-title">Follow Us on Instagram</h2>
@@ -1653,7 +1774,7 @@
                     </div>
                 </div>
 
-                <!-- Facilities Section - UPDATED TO WORDS -->
+                <!-- Facilities Section -->
                 <div class="facilities-section">
                     <h2 class="section-title">Our Facilities</h2>
                     <div class="facilities-grid">
@@ -1738,7 +1859,6 @@
                 <div class="contact-container">
                     <div class="contact-form">
                         <form id="bookingForm" action="https://formspree.io/f/mlgdwpzj" method="POST">
-                            <!-- Updated form with single box for name and email -->
                             <div class="form-group">
                                 <label for="name">Full Name</label>
                                 <input type="text" id="name" name="full_name" class="form-control" required>
