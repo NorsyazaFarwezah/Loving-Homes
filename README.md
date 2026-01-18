@@ -1425,6 +1425,16 @@
                         <h3>Vet On Call</h3>
                         <p>24/7 access to veterinary care for peace of mind during your pet's stay.</p>
                     </div>
+                    <div class="service-card">
+                        <i class="fas fa-car"></i>
+                        <h3>Chauffeur Service</h3>
+                        <p>Door-to-door pickup and drop-off service for your pet's convenience.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-tree"></i>
+                        <h3>Paddocks</h3>
+                        <p>Secure outdoor play areas with agility equipment and plenty of space to run.</p>
+                    </div>
                 </div>
             </div>
         </section>
