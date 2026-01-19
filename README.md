@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -33,8 +33,6 @@
             color: var(--dark);
             background-color: var(--white);
             overflow-x: hidden;
-            width: 100%;
-            max-width: 100%;
         }
 
         h1, h2, h3, h4, h5 {
@@ -58,17 +56,15 @@
             display: block;
         }
 
-        /* UPDATED: Full width container */
         .container {
             width: 100%;
-            max-width: 1400px; /* Increased from 1200px */
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 15px;
         }
 
         section {
             padding: 60px 0;
-            width: 100%;
         }
 
         .btn {
@@ -136,7 +132,6 @@
             font-size: 2.2rem;
             color: var(--primary);
             position: relative;
-            width: 100%;
         }
 
         .section-title::after {
@@ -166,7 +161,6 @@
             align-items: center;
             padding: 15px 0;
             position: relative;
-            width: 100%;
         }
 
         .logo {
@@ -227,24 +221,20 @@
             padding: 5px;
         }
 
-        /* Hero Section - UPDATED for full width */
+        /* Hero Section */
         .hero {
             background: linear-gradient(rgba(139, 115, 85, 0.7), rgba(139, 115, 85, 0.7)), url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80');
             background-size: cover;
             background-position: center;
             color: white;
             text-align: center;
-            padding: 120px 20px;
-            width: 100%;
+            padding: 120px 0;
         }
 
         .hero h1 {
             font-size: 3rem;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-            max-width: 1200px;
-            margin-left: auto;
-            margin-right: auto;
         }
 
         .hero p {
@@ -263,14 +253,12 @@
         /* Quick Links */
         .quick-links {
             background-color: var(--light);
-            width: 100%;
         }
 
         .quick-links-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 30px;
-            width: 100%;
         }
 
         .quick-link-card {
@@ -282,7 +270,6 @@
             text-align: center;
             padding: 30px 20px;
             border: 1px solid var(--light-gray);
-            width: 100%;
         }
 
         .quick-link-card:hover {
@@ -306,7 +293,6 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
-            width: 100%;
         }
 
         .package-card {
@@ -316,7 +302,6 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
             background-color: var(--white);
-            width: 100%;
         }
 
         .package-card:hover {
@@ -364,17 +349,15 @@
             margin-right: 10px;
         }
 
-        /* Instagram Feed */
+        /* Instagram Feed - UPDATED DESIGN */
         .instagram-feed {
             background-color: var(--light);
-            width: 100%;
         }
 
         .instagram-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
             gap: 15px;
-            width: 100%;
         }
 
         .instagram-item {
@@ -417,7 +400,6 @@
             background-color: var(--dark);
             color: var(--white);
             padding: 60px 0 30px;
-            width: 100%;
         }
 
         .footer-content {
@@ -425,7 +407,6 @@
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 40px;
             margin-bottom: 40px;
-            width: 100%;
         }
 
         .footer-logo {
@@ -483,11 +464,11 @@
         }
 
         /* Page Specific Styles */
+        /* Services Page */
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
-            width: 100%;
         }
 
         .service-card {
@@ -500,7 +481,6 @@
             transition: all 0.3s ease;
             cursor: pointer;
             border: 1px solid var(--light-gray);
-            width: 100%;
         }
 
         .service-card:hover {
@@ -522,8 +502,7 @@
         .tour-section {
             background-color: var(--light);
             text-align: center;
-            padding: 80px 20px;
-            width: 100%;
+            padding: 80px 0;
         }
 
         .tour-section h2 {
@@ -538,7 +517,7 @@
             font-size: 1.1rem;
         }
 
-        /* About Page */
+        /* About Page - UPDATED FACILITIES SECTION */
         .timeline {
             position: relative;
             max-width: 800px;
@@ -596,7 +575,7 @@
             left: -12px;
         }
 
-        /* Facilities Section */
+        /* Facilities Section - UPDATED TO WORDS */
         .facilities-section {
             margin-bottom: 60px;
         }
@@ -606,7 +585,6 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
             margin-top: 40px;
-            width: 100%;
         }
 
         .facility-card {
@@ -617,7 +595,6 @@
             border: 1px solid var(--light-gray);
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
-            width: 100%;
         }
 
         .facility-card:hover {
@@ -641,7 +618,6 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 30px;
-            width: 100%;
         }
 
         .value-card {
@@ -671,7 +647,6 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
             margin-bottom: 60px;
-            width: 100%;
         }
 
         .package-builder {
@@ -680,7 +655,6 @@
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             border: 1px solid var(--light-gray);
-            width: 100%;
         }
 
         .form-group {
@@ -753,12 +727,11 @@
             display: block;
         }
 
-        /* Contact Page */
+        /* Contact Page - UPDATED FORM */
         .contact-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 50px;
-            width: 100%;
         }
 
         .contact-form .form-group {
@@ -792,7 +765,6 @@
             align-items: center;
             justify-content: center;
             border: 1px solid var(--light-gray);
-            width: 100%;
         }
 
         /* Digital Map Styles */
@@ -841,6 +813,76 @@
             font-weight: 600;
         }
 
+        /* Booking Reservation Summary Styles */
+        .booking-summary {
+            background-color: var(--light);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: 1px solid var(--light-gray);
+            margin: 40px 0;
+        }
+
+        .booking-summary h2 {
+            color: var(--primary);
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+        }
+
+        .summary-details {
+            background-color: var(--white);
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid var(--light-gray);
+            margin-bottom: 25px;
+        }
+
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .summary-row:last-child {
+            border-bottom: none;
+        }
+
+        .summary-label {
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .summary-value {
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        .summary-total {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .summary-actions {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .summary-actions .btn {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .no-booking-message {
+            text-align: center;
+            padding: 30px;
+            color: var(--gray);
+            font-style: italic;
+        }
+
         .faq-section {
             margin-top: 60px;
         }
@@ -883,7 +925,6 @@
         /* Hide all pages except active one */
         .page {
             display: none;
-            width: 100%;
         }
         
         .page.active {
@@ -904,57 +945,6 @@
         
         .mobile-overlay.active {
             display: block;
-        }
-
-        /* =========================
-           FULL-WIDTH DESKTOP STYLES
-           ========================= */
-        
-        @media (min-width: 1401px) {
-            /* Remove max-width for very large screens */
-            .container {
-                max-width: 100%;
-                padding: 0 40px;
-            }
-            
-            .hero {
-                padding: 150px 20px;
-            }
-            
-            .hero h1 {
-                font-size: 3.5rem;
-                max-width: 1400px;
-            }
-            
-            .packages-grid,
-            .services-grid,
-            .quick-links-grid,
-            .pricing-cards,
-            .facilities-grid {
-                grid-template-columns: repeat(3, 1fr);
-                max-width: 1400px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
-            .instagram-grid {
-                grid-template-columns: repeat(5, 1fr);
-                max-width: 1400px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
-            .values-grid {
-                grid-template-columns: repeat(4, 1fr);
-                max-width: 1400px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
-            /* Make sections more spacious */
-            section {
-                padding: 80px 0;
-            }
         }
 
         /* =========================
@@ -1034,7 +1024,7 @@
             
             /* Hero Section Mobile */
             .hero {
-                padding: 80px 20px;
+                padding: 80px 0;
             }
             
             .hero h1 {
@@ -1125,6 +1115,24 @@
                 grid-template-columns: 1fr;
             }
             
+            /* Booking Summary Mobile */
+            .booking-summary {
+                padding: 25px 20px;
+                margin: 30px 10px;
+            }
+            
+            .summary-details {
+                padding: 20px;
+            }
+            
+            .summary-actions {
+                flex-direction: column;
+            }
+            
+            .summary-actions .btn {
+                width: 100%;
+            }
+            
             /* Contact Page Mobile */
             .contact-container {
                 grid-template-columns: 1fr;
@@ -1188,7 +1196,7 @@
             }
             
             .tour-section {
-                padding: 60px 20px;
+                padding: 60px 0;
             }
             
             .tour-section h2 {
@@ -1271,6 +1279,11 @@
                 width: 100%;
                 text-align: center;
             }
+            
+            .summary-row {
+                flex-direction: column;
+                gap: 5px;
+            }
         }
 
         @media (max-width: 360px) {
@@ -1294,6 +1307,10 @@
             .section-title {
                 font-size: 1.6rem;
             }
+            
+            .booking-summary {
+                padding: 20px 15px;
+            }
         }
 
         /* Touch Device Optimizations */
@@ -1315,48 +1332,6 @@
             
             .nav-links a {
                 padding: 15px 0;
-            }
-        }
-
-        /* =========================
-           WIDE SCREEN OPTIMIZATIONS
-           ========================= */
-        @media (min-width: 1600px) {
-            .container {
-                padding: 0 60px;
-            }
-            
-            .hero h1 {
-                font-size: 4rem;
-                max-width: 1400px;
-            }
-            
-            .hero p {
-                font-size: 1.3rem;
-                max-width: 800px;
-            }
-            
-            .section-title {
-                font-size: 2.5rem;
-            }
-            
-            .quick-link-card,
-            .package-card,
-            .service-card,
-            .facility-card {
-                padding: 40px 30px;
-            }
-            
-            .quick-link-card i,
-            .service-card i,
-            .facility-card i {
-                font-size: 3.5rem;
-            }
-            
-            .quick-link-card h3,
-            .service-card h3,
-            .facility-card h3 {
-                font-size: 1.8rem;
             }
         }
     </style>
@@ -1425,16 +1400,6 @@
                         <h3>Vet On Call</h3>
                         <p>24/7 access to veterinary care for peace of mind during your pet's stay.</p>
                     </div>
-                    <div class="service-card">
-                        <i class="fas fa-car"></i>
-                        <h3>Chauffeur Service</h3>
-                        <p>Door-to-door pickup and drop-off service for your pet's convenience.</p>
-                    </div>
-                    <div class="service-card">
-                        <i class="fas fa-tree"></i>
-                        <h3>Paddocks</h3>
-                        <p>Secure outdoor play areas with agility equipment and plenty of space to run.</p>
-                    </div>
                 </div>
             </div>
         </section>
@@ -1499,7 +1464,7 @@
             </div>
         </section>
 
-        <!-- Instagram Feed -->
+        <!-- Instagram Feed - UPDATED DESIGN -->
         <section class="instagram-feed">
             <div class="container">
                 <h2 class="section-title">Follow Us on Instagram</h2>
@@ -1726,7 +1691,7 @@
                         <p>Base Package: <span id="base-price">$0</span></p>
                         <p>Add-ons: <span id="addons-price">$0</span></p>
                         <h4>Total: $<span id="total-price">0</span></h4>
-                        <a href="#contact" class="btn">Book Now</a>
+                        <button type="button" id="book-custom-package" class="btn">Book This Package</button>
                     </div>
                 </div>
             </div>
@@ -1784,7 +1749,7 @@
                     </div>
                 </div>
 
-                <!-- Facilities Section -->
+                <!-- Facilities Section - UPDATED TO WORDS -->
                 <div class="facilities-section">
                     <h2 class="section-title">Our Facilities</h2>
                     <div class="facilities-grid">
@@ -1869,6 +1834,7 @@
                 <div class="contact-container">
                     <div class="contact-form">
                         <form id="bookingForm" action="https://formspree.io/f/mlgdwpzj" method="POST">
+                            <!-- Updated form with single box for name and email -->
                             <div class="form-group">
                                 <label for="name">Full Name</label>
                                 <input type="text" id="name" name="full_name" class="form-control" required>
@@ -1920,7 +1886,7 @@
                             <i class="fas fa-map-marker-alt"></i>
                             <div>
                                 <h4>Address</h4>
-                                <p>123 Pet Paradise Road<br>Hong Kong</p>
+                                <p>123 Pet Paradise Road, Highland Park Block 5<br>Hong Kong</p>
                             </div>
                         </div>
                         
@@ -1963,6 +1929,19 @@
                     </div>
                 </div>
                 
+                <!-- Booking Reservation Summary Section - ADDED -->
+                <div class="booking-summary" id="bookingSummary">
+                    <h2>Your Booking Reservation</h2>
+                    <div id="summaryContent">
+                        <div class="no-booking-message">
+                            <p>No booking details available yet.</p>
+                            <p>Select a package on the Packages page or build a custom package to see your reservation summary here.</p>
+                            <a href="#packages" class="btn" style="margin-top: 15px;">Go to Packages</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Section -->
                 <div class="faq-section">
                     <h2 class="section-title">Frequently Asked Questions</h2>
                     
@@ -2113,6 +2092,11 @@
             
             // Scroll to top
             window.scrollTo(0, 0);
+            
+            // If showing contact page, update booking summary
+            if (pageId === 'contact') {
+                updateBookingSummary();
+            }
         }
 
         // Navigation click handlers
@@ -2152,10 +2136,23 @@
             }
         });
 
+        // Booking data storage
+        let currentBooking = {
+            type: null, // 'premium', 'classic', 'daycare', or 'custom'
+            nights: 1,
+            roomType: 'standard',
+            addons: [],
+            basePrice: 0,
+            addonsPrice: 0,
+            totalPrice: 0,
+            date: null
+        };
+
         // Package Builder Functionality
         const addOnItems = document.querySelectorAll('.add-on-item');
         const calculateBtn = document.getElementById('calculate-quote');
         const quoteResult = document.getElementById('quote-result');
+        const bookCustomPackageBtn = document.getElementById('book-custom-package');
 
         addOnItems.forEach(item => {
             item.addEventListener('click', function() {
@@ -2177,9 +2174,15 @@
             
             // Calculate add-ons
             let addonsPrice = 0;
+            const selectedAddons = [];
             document.querySelectorAll('.add-on-item.selected').forEach(item => {
+                const service = item.getAttribute('data-service');
                 const price = parseInt(item.getAttribute('data-price'));
                 addonsPrice += price;
+                selectedAddons.push({
+                    service: service,
+                    price: price
+                });
             });
             
             // Calculate total
@@ -2190,20 +2193,175 @@
             document.getElementById('addons-price').textContent = `$${addonsPrice}`;
             document.getElementById('total-price').textContent = totalPrice;
             
+            // Save to booking data
+            currentBooking.type = 'custom';
+            currentBooking.nights = nights;
+            currentBooking.roomType = roomType;
+            currentBooking.addons = selectedAddons;
+            currentBooking.basePrice = basePrice;
+            currentBooking.addonsPrice = addonsPrice;
+            currentBooking.totalPrice = totalPrice;
+            currentBooking.date = new Date().toLocaleDateString();
+            
             // Show result
             quoteResult.classList.add('show');
+        });
+
+        // Book Custom Package
+        bookCustomPackageBtn.addEventListener('click', function() {
+            if (currentBooking.type === 'custom') {
+                alert('Custom package saved! Navigate to Contact page to see your booking summary.');
+                // Navigate to contact page
+                showPage('contact');
+                window.location.hash = 'contact';
+            } else {
+                alert('Please create a custom package first using the Package Builder.');
+            }
         });
 
         // Package Selection
         document.querySelectorAll('.select-package').forEach(button => {
             button.addEventListener('click', function() {
                 const plan = this.getAttribute('data-plan');
-                alert(`You've selected the ${plan} package! You can now proceed to book this package.`);
-                // Show contact page for booking
+                
+                // Set booking data based on plan
+                let basePrice, nights = 1, roomType = 'standard';
+                
+                switch(plan) {
+                    case 'premium':
+                        basePrice = 89;
+                        roomType = 'luxury';
+                        break;
+                    case 'classic':
+                        basePrice = 65;
+                        roomType = 'standard';
+                        break;
+                    case 'daycare':
+                        basePrice = 35;
+                        nights = 1;
+                        roomType = 'daycare';
+                        break;
+                }
+                
+                currentBooking.type = plan;
+                currentBooking.nights = nights;
+                currentBooking.roomType = roomType;
+                currentBooking.addons = [];
+                currentBooking.basePrice = basePrice * nights;
+                currentBooking.addonsPrice = 0;
+                currentBooking.totalPrice = basePrice * nights;
+                currentBooking.date = new Date().toLocaleDateString();
+                
+                alert(`You've selected the ${plan} package! Your booking has been saved. Navigate to Contact page to see your reservation summary.`);
+                
+                // Navigate to contact page
                 showPage('contact');
                 window.location.hash = 'contact';
             });
         });
+
+        // Update Booking Summary
+        function updateBookingSummary() {
+            const summaryContent = document.getElementById('summaryContent');
+            
+            if (currentBooking.type) {
+                let packageName = '';
+                switch(currentBooking.type) {
+                    case 'premium': packageName = 'Premium Package'; break;
+                    case 'classic': packageName = 'Classic Package'; break;
+                    case 'daycare': packageName = 'Day Care Package'; break;
+                    case 'custom': packageName = 'Custom Package'; break;
+                }
+                
+                let roomTypeName = '';
+                switch(currentBooking.roomType) {
+                    case 'standard': roomTypeName = 'Standard Room'; break;
+                    case 'deluxe': roomTypeName = 'Deluxe Suite'; break;
+                    case 'luxury': roomTypeName = 'Luxury Suite'; break;
+                    case 'daycare': roomTypeName = 'Day Care Facility'; break;
+                }
+                
+                const addonsList = currentBooking.addons.map(addon => 
+                    `${addon.service.charAt(0).toUpperCase() + addon.service.slice(1)} ($${addon.price})`
+                ).join(', ') || 'None';
+                
+                summaryContent.innerHTML = `
+                    <div class="summary-details">
+                        <div class="summary-row">
+                            <span class="summary-label">Package Type:</span>
+                            <span class="summary-value">${packageName}</span>
+                        </div>
+                        <div class="summary-row">
+                            <span class="summary-label">Duration:</span>
+                            <span class="summary-value">${currentBooking.nights} ${currentBooking.nights === 1 ? 'Night' : 'Nights'}</span>
+                        </div>
+                        <div class="summary-row">
+                            <span class="summary-label">Room Type:</span>
+                            <span class="summary-value">${roomTypeName}</span>
+                        </div>
+                        <div class="summary-row">
+                            <span class="summary-label">Add-on Services:</span>
+                            <span class="summary-value">${addonsList}</span>
+                        </div>
+                        <div class="summary-row">
+                            <span class="summary-label">Base Price:</span>
+                            <span class="summary-value">$${currentBooking.basePrice}</span>
+                        </div>
+                        <div class="summary-row">
+                            <span class="summary-label">Add-ons Total:</span>
+                            <span class="summary-value">$${currentBooking.addonsPrice}</span>
+                        </div>
+                        <div class="summary-row summary-total">
+                            <span class="summary-label">Total Cost:</span>
+                            <span class="summary-value">$${currentBooking.totalPrice}</span>
+                        </div>
+                        <div class="summary-row">
+                            <span class="summary-label">Booking Date:</span>
+                            <span class="summary-value">${currentBooking.date}</span>
+                        </div>
+                    </div>
+                    <div class="summary-actions">
+                        <button class="btn" id="confirmBooking">Confirm Booking</button>
+                        <button class="btn btn-outline" id="modifyBooking">Modify Booking</button>
+                        <button class="btn btn-outline" id="clearBooking">Clear Booking</button>
+                    </div>
+                `;
+                
+                // Add event listeners to new buttons
+                document.getElementById('confirmBooking').addEventListener('click', function() {
+                    alert('Booking confirmed! We will contact you shortly to finalize the details.');
+                });
+                
+                document.getElementById('modifyBooking').addEventListener('click', function() {
+                    showPage('packages');
+                    window.location.hash = 'packages';
+                });
+                
+                document.getElementById('clearBooking').addEventListener('click', function() {
+                    if (confirm('Are you sure you want to clear your booking?')) {
+                        currentBooking = {
+                            type: null,
+                            nights: 1,
+                            roomType: 'standard',
+                            addons: [],
+                            basePrice: 0,
+                            addonsPrice: 0,
+                            totalPrice: 0,
+                            date: null
+                        };
+                        updateBookingSummary();
+                    }
+                });
+            } else {
+                summaryContent.innerHTML = `
+                    <div class="no-booking-message">
+                        <p>No booking details available yet.</p>
+                        <p>Select a package on the Packages page or build a custom package to see your reservation summary here.</p>
+                        <a href="#packages" class="btn" style="margin-top: 15px;">Go to Packages</a>
+                    </div>
+                `;
+            }
+        }
 
         // FAQ Accordion
         document.querySelectorAll('.faq-question').forEach(question => {
