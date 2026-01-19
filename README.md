@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -241,6 +241,7 @@
             font-size: 1.2rem;
             max-width: 700px;
             margin: 0 auto 30px;
+            line-height: 1.8;
         }
 
         .hero-buttons {
@@ -248,6 +249,7 @@
             justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
+            margin-top: 20px;
         }
 
         /* Quick Links */
@@ -270,6 +272,10 @@
             text-align: center;
             padding: 30px 20px;
             border: 1px solid var(--light-gray);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
         .quick-link-card:hover {
@@ -286,6 +292,16 @@
         .quick-link-card h3 {
             font-size: 1.5rem;
             color: var(--dark);
+            margin-bottom: 15px;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quick-link-card p {
+            margin-bottom: 20px;
+            line-height: 1.6;
         }
 
         /* Packages Section */
@@ -302,6 +318,9 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
             background-color: var(--white);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
         }
 
         .package-card:hover {
@@ -312,7 +331,7 @@
         .package-header {
             background-color: var(--primary);
             color: white;
-            padding: 20px;
+            padding: 25px 20px;
             text-align: center;
         }
 
@@ -329,6 +348,10 @@
 
         .package-features {
             padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
         .package-features ul {
@@ -336,8 +359,10 @@
         }
 
         .package-features li {
-            padding: 8px 0;
+            padding: 10px 0;
             border-bottom: 1px solid var(--light-gray);
+            display: flex;
+            align-items: center;
         }
 
         .package-features li:last-child {
@@ -347,6 +372,7 @@
         .package-features li i {
             color: var(--success);
             margin-right: 10px;
+            min-width: 20px;
         }
 
         /* Instagram Feed - UPDATED DESIGN */
@@ -357,7 +383,7 @@
         .instagram-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 15px;
+            gap: 20px;
         }
 
         .instagram-item {
@@ -387,12 +413,12 @@
             font-weight: 600;
             font-size: 1.2rem;
             text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+            margin-bottom: 5px;
         }
 
         .instagram-handle {
             font-size: 0.9rem;
             opacity: 0.9;
-            margin-top: 5px;
         }
 
         /* Footer */
@@ -481,6 +507,11 @@
             transition: all 0.3s ease;
             cursor: pointer;
             border: 1px solid var(--light-gray);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
         }
 
         .service-card:hover {
@@ -491,12 +522,21 @@
         .service-card i {
             font-size: 3rem;
             color: var(--primary);
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         .service-card h3 {
             font-size: 1.5rem;
             margin-bottom: 15px;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .service-card p {
+            line-height: 1.6;
+            margin-bottom: 20px;
         }
 
         .tour-section {
@@ -515,6 +555,7 @@
             max-width: 700px;
             margin: 0 auto 30px;
             font-size: 1.1rem;
+            line-height: 1.8;
         }
 
         /* About Page - UPDATED FACILITIES SECTION */
@@ -551,7 +592,7 @@
         }
 
         .timeline-content {
-            padding: 20px 30px;
+            padding: 25px 30px;
             background-color: var(--white);
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -595,6 +636,11 @@
             border: 1px solid var(--light-gray);
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
         }
 
         .facility-card:hover {
@@ -605,13 +651,21 @@
         .facility-card i {
             font-size: 3rem;
             color: var(--primary);
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         .facility-card h3 {
             font-size: 1.5rem;
             color: var(--primary);
             margin-bottom: 15px;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .facility-card p {
+            line-height: 1.6;
         }
 
         .values-grid {
@@ -627,6 +681,11 @@
             border-radius: 8px;
             border: 1px solid var(--light-gray);
             box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
         }
 
         .value-card i {
@@ -639,6 +698,14 @@
             font-size: 1.5rem;
             margin-bottom: 15px;
             color: var(--primary);
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .value-card p {
+            line-height: 1.6;
         }
 
         /* Packages Page */
@@ -658,7 +725,7 @@
         }
 
         .form-group {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         .form-group label {
@@ -675,6 +742,7 @@
             border-radius: 4px;
             font-family: 'Open Sans', sans-serif;
             background-color: var(--white);
+            font-size: 1rem;
         }
 
         .form-row {
@@ -702,6 +770,7 @@
             border: 1px solid #ddd;
             cursor: pointer;
             transition: all 0.3s;
+            text-align: center;
         }
 
         .add-on-item:hover {
@@ -714,9 +783,20 @@
             background-color: rgba(210, 180, 140, 0.1);
         }
 
+        .add-on-item h4 {
+            font-size: 1rem;
+            margin-bottom: 5px;
+            color: var(--dark);
+        }
+
+        .add-on-item p {
+            font-weight: 600;
+            color: var(--primary);
+        }
+
         .quote-result {
             margin-top: 30px;
-            padding: 20px;
+            padding: 25px;
             background-color: var(--white);
             border-radius: 8px;
             display: none;
@@ -727,11 +807,28 @@
             display: block;
         }
 
+        .quote-result h3 {
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .quote-result p {
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        .quote-result h4 {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-top: 20px;
+        }
+
         /* Contact Page - UPDATED FORM */
         .contact-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 50px;
+            align-items: start;
         }
 
         .contact-form .form-group {
@@ -744,7 +841,7 @@
 
         .contact-info-item {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             margin-bottom: 25px;
         }
 
@@ -753,6 +850,7 @@
             color: var(--primary);
             margin-right: 15px;
             width: 30px;
+            margin-top: 5px;
         }
 
         .map-container {
@@ -806,6 +904,7 @@
 
         .hours-table td {
             padding: 10px 0;
+            font-size: 0.95rem;
         }
 
         .hours-table td:last-child {
@@ -827,6 +926,7 @@
             color: var(--primary);
             margin-bottom: 30px;
             font-size: 1.8rem;
+            text-align: center;
         }
 
         .summary-details {
@@ -840,8 +940,9 @@
         .summary-row {
             display: flex;
             justify-content: space-between;
-            padding: 10px 0;
+            padding: 12px 0;
             border-bottom: 1px solid var(--light-gray);
+            align-items: center;
         }
 
         .summary-row:last-child {
@@ -851,11 +952,14 @@
         .summary-label {
             font-weight: 600;
             color: var(--primary);
+            font-size: 1rem;
         }
 
         .summary-value {
             font-weight: 600;
             color: var(--dark);
+            font-size: 1rem;
+            text-align: right;
         }
 
         .summary-total {
@@ -869,6 +973,7 @@
             gap: 15px;
             flex-wrap: wrap;
             margin-top: 20px;
+            justify-content: center;
         }
 
         .summary-actions .btn {
@@ -878,9 +983,14 @@
 
         .no-booking-message {
             text-align: center;
-            padding: 30px;
+            padding: 40px;
             color: var(--gray);
             font-style: italic;
+        }
+
+        .no-booking-message p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
         }
 
         .faq-section {
@@ -904,6 +1014,7 @@
             justify-content: space-between;
             align-items: center;
             color: var(--primary);
+            font-size: 1.1rem;
         }
 
         .faq-answer {
@@ -911,6 +1022,8 @@
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.3s ease, padding 0.3s ease;
+            font-size: 1rem;
+            line-height: 1.6;
         }
 
         .faq-item.active .faq-answer {
@@ -1089,6 +1202,7 @@
             .instagram-grid {
                 grid-template-columns: repeat(2, 1fr);
                 padding: 0 15px;
+                gap: 15px;
             }
             
             .instagram-item {
@@ -1283,6 +1397,11 @@
             .summary-row {
                 flex-direction: column;
                 gap: 5px;
+                align-items: flex-start;
+            }
+            
+            .summary-value {
+                text-align: left;
             }
         }
 
@@ -1310,6 +1429,13 @@
             
             .booking-summary {
                 padding: 20px 15px;
+            }
+            
+            .quick-link-card h3,
+            .service-card h3,
+            .facility-card h3,
+            .value-card h3 {
+                min-height: auto;
             }
         }
 
@@ -1834,7 +1960,6 @@
                 <div class="contact-container">
                     <div class="contact-form">
                         <form id="bookingForm" action="https://formspree.io/f/mlgdwpzj" method="POST">
-                            <!-- Updated form with single box for name and email -->
                             <div class="form-group">
                                 <label for="name">Full Name</label>
                                 <input type="text" id="name" name="full_name" class="form-control" required>
@@ -1929,7 +2054,7 @@
                     </div>
                 </div>
                 
-                <!-- Booking Reservation Summary Section - ADDED -->
+                <!-- Booking Reservation Summary Section -->
                 <div class="booking-summary" id="bookingSummary">
                     <h2>Your Booking Reservation</h2>
                     <div id="summaryContent">
